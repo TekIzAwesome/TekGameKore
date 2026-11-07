@@ -1,0 +1,179 @@
+h1 {
+    font-family: Verdana;
+    text-align: center;
+    color: darkblue;
+}
+
+h2 {
+    padding-top: 100px;
+    font-family: Verdana;
+    color: darkblue;
+}
+
+body {
+    background-color: teal;
+    font-family: Verdana, Arial, sans-serif;
+    color: #222;
+}
+
+img {
+    padding: 20px;
+    width: 70px;
+    height: auto;
+    text-align: center;
+    box-shadow: none;
+    background: none;
+    transition: none;
+}
+
+img:hover {
+    box-shadow: none;
+    transform: none;
+}
+
+p, figcaption {
+    font-family: Verdana;
+    text-align: center;
+    color: lightblue;
+    text-shadow: none;
+}
+
+#targetImage {
+    width: 1280px;
+    height: 1920px;
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    box-shadow: none;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    margin: 32px 0;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 12px 10px;
+    border: none;
+    margin: 0;
+    min-width: 0;
+    max-width: 320px;
+    width: 100%;
+    gap: 8px;
+}
+
+figure img {
+    width: 70px;
+    height: 70px;
+    min-width: 70px;
+    min-height: 70px;
+    max-width: 70px;
+    max-height: 70px;
+    border-radius: 50px;
+    margin-bottom: 6px;
+    box-shadow: none;
+}
+
+.figure-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    min-width: 0;
+    word-break: break-word;
+    width: 100%;
+}
+
+figcaption {
+    margin-top: 0;
+    font-size: 0.95em;
+    color: lightblue;
+    text-align: center;
+    line-height: 1.3;
+    padding-left: 0;
+    word-break: break-word;
+    max-width: 260px;
+}
+
+/* Updated modal styling with proper spacing */
+#modalOverlay {
+    position: relative;
+    width: 400px;
+    background-color: #40E0D0;
+    padding: 25px;
+    border: 2px solid #008080;
+    border-radius: 10px;
+    margin: 20px auto 40px;
+    display: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#modalContent {
+    color: #222;
+    font-family: Verdana, Arial, sans-serif;
+    text-align: center;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Additional input and button styling remains unchanged */
+#modalContent input[type="text"] {
+    width: 90%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #008080;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    background: #fff;
+    color: #222;
+    font-size: 1em;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+#modalContent input[type="text"]:focus {
+    border: 1.5px solid #008080;
+}
+
+#modalContent button {
+    background-color: #008080;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 1em;
+    font-family: Verdana, Arial, sans-serif;
+    box-shadow: none;
+    transition: none;
+}
+
+#modalContent button:hover {
+    background-color: #006666;
+    color: #fff;
+}
+
+#result {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: #008080;
+    text-shadow: none;
+}

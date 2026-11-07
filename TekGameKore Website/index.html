@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TekGameKore</title>
+        <img src="Tek Twisted Up 2026.JPG" id="targetImage">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+        <body>
+            <h1>
+                <!-- Hello, I Am Tek-->
+                <p style="color: darkblue;">Hello, I am Tek, the Indie Game Dev Hero! 🦸‍♀️🎮</p>
+
+                <p style="color: lightblue;">My mission? To protect the digital universe from the evil forces of bugs, glitches, and errors!
+                    Armed with my ultimite secret weapon, CODING (Computer Programming), I hunt down troublesome bugs
+                    and vaporize them one line of code at a time! 💥💻
+                </p>
+
+                <p style="color: darkblue;">But what exactly is coding? It's the art of writing instructions that computers can understand 
+                    and execute to accomplish specific tasks. With creativity, logic, and a little bit og technological
+                    magic, I transform ideas into reality, build awesome game, and keep the digital world running smoothly.
+                </p>
+
+                <p style="color: lightblue;">Bugs beware! Tek is on the keyboard! ⚡️</p>
+
+                <!-- Subscribe to TekGameKore on YouTube -->
+                <a href="https://www.youtube.com/@Tek475" target="blank">
+                    <i class="fa-brands fa-youtube fa-3x" style="color: blue;"></i>
+                </a>
+
+                <!-- Follow Tek on IG -->
+                <a href="https://www.instagram.com/tek_iz_awesome/" target="blank">
+                    <i class="fa-brands fa-instagram fa-3x" style="color: blue;"></i>
+                </a>
+
+                <!-- Explore Tek's Code through GitHub -->
+                <a href="https://github.com/TekIzAwesome" target="blank">
+                    <i class="fa-brands fa-github fa-3x" style="color: blue;"></i>
+                </a>
+
+                <!-- Interactive Fun -->
+                <p style="color: darkblue">Click the link below to claim your unique superpower!</p>
+                    <input type="button" id="activateBtn" value="Unlease Your Inner Hero"/>
+                </form>
+
+                <!-- Moved prompt container to appear directly underneath the Activate button -->
+                <div id="modalOverlay" style="display:none;">
+                    <div id="modalContent">
+                        <!-- Step 1: Ask for Name -->
+                        <div id="step1">
+                            <h2>A hero moves unseen, striking from the shadows-what name follows in their wake?</h2>
+                            <input type="text" id="nameInput" name="nameInput" />
+                            <br/><br/>
+                            <button id="nextBtn1">Next</button>
+                        </div>
+                        <!-- Step 2: Ask for superpower. Initially hidden -->
+                        <div id="step2" style="display:none;">
+                            <h2>If you could bend reality with one power, what's your flex?</h2>
+                            <input type="text" id="superpowerInput" name="superpowerInput" />
+                            <br/><br/>
+                            <button id="submitBtn">Submit</button>
+                        </div>
+                        <!-- Area to display the verdict of the entry -->
+                        <div id="result"></div>
+                    </div>
+                </div>
+            </h1>
+        </body>
+    </head>
+                <script src="UserInputProject.js"></script> 
+                <script src="interactive.js"></script>
+</html>
